@@ -1,0 +1,74 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+#main {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 10%;
+    height: 30%;
+    min-width: 30%;
+    min-height: 30%;
+}
+
+#monitor {
+    background-color: #2f3194;
+    display: flex;
+    padding: 3% 3% 3% 3%;
+}
+
+#monitor > input {
+    width: 100%;
+    padding:7% 7% 7% 7%;
+}
+
+#keyboard {
+    background-color: #2f3194;
+    width: 94%;
+    height: 50%;
+    padding: 3% 3% 53% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 100%;
+}
+
+.button {
+    width: 20%;
+    height: 40%;
+    flex: 15%;
+    margin: 3% 3% 3% 3%;
+    border-radius: 80%;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.clear {
+    width: 50%;
+    height: 35%;
+    margin:3% 3% 3% 3%;
+    flex: 35%;
+    border-radius: 80%;
+    outline: none;
+    border: none;
+    font-size: 30px;
+}
+
+.button:hover {
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: 300ms;
+    outline: none;
+    border: none;
+}
+
+.clear:hover {
+    background-color: #c4a226;
+    transform: scale(1.1);
+    transition: 300ms;
+    outline: none;
+    border: none;
+}
+
