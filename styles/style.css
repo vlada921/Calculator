@@ -5,7 +5,7 @@ body {
 #main {
     position: absolute;
     top: 20%;
-    left: 40%;
+    left: 35%;
     width: 10%;
     height: 30%;
     min-width: 30%;
@@ -16,6 +16,7 @@ body {
     background-color: #2f3194;
     display: flex;
     padding: 3% 3% 3% 3%;
+    width: 70%;
 }
 
 #monitor > input {
@@ -25,9 +26,9 @@ body {
 
 #keyboard {
     background-color: #2f3194;
-    width: 94%;
-    height: 50%;
-    padding: 3% 3% 53% 3%;
+    width: 70%;
+    min-height: 70%;
+    padding: 3% 3% 0 3%;
     display: flex;
     flex-wrap: wrap;
     font-size: 100%;
@@ -43,6 +44,7 @@ body {
     border: none;
     font-size: 30px;
     display: inline-block;
+    max-height: 19%;
 }
 
 .clear {
@@ -72,3 +74,24 @@ body {
     border: none;
 }
 
+@media  screen and (max-width: 1000px) {
+    #keyboard{
+        width: 250px;
+    }
+    #monitor{
+        width: 250px;
+    }
+    #main{
+        width: 250px;
+    }
+    body{
+        width: 250px;
+    }
+    .button{
+        width: 250px;
+    }
+    .clear{
+        width: 250px;
+    }
+
+}
